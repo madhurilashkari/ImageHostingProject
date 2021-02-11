@@ -94,7 +94,7 @@ public class ImageController {
     //This string is then displayed by 'edit.html' file as previous tags of an image
     @RequestMapping(value = "/editImage")
     public String editImage(@RequestParam("imageId") Integer imageId, Model model, HttpSession session) {
-      
+
         String error = "Only the owner of the image can edit the image";
         Image image = imageService.getImage(imageId);
         User user = (User) session.getAttribute("loggeduser");
@@ -152,7 +152,17 @@ public class ImageController {
     //The method calls the deleteImage() method in the business logic passing the id of the image to be deleted
     //Looks for a controller method with request mapping of type '/images'
     @RequestMapping(value = "/deleteImage", method = RequestMethod.DELETE)
-    public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId) {
+    public String deleteImageSubmit(@RequestParam(name = "imageId") Integer imageId, Model model, HttpSession session) {
+        String error = "Only the owner of the image can edit the image";
+        Image image = imageService.getImage(imageId);
+        User user = (User) session.getAttribute("loggeduser");
+
+        if (!image.getUser().getId().equals(user.getId())) {
+            model.addAttribute("editError", error);
+            model.addAttribute("tags", image.getTags());
+            model.addAttribute("image", image);
+            return "images/image";
+        }
         imageService.deleteImage(imageId);
         return "redirect:/images";
     }
