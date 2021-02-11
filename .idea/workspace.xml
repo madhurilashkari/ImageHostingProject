@@ -23,14 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c332855e-1472-4d27-ab03-26b600a6ba8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/config/JpaConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/controller/ImageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ImageHoster/repository/ImageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/images/image.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +58,11 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -92,6 +95,17 @@
     <property name="project.structure.side.proportion" value="0.6643678" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ImageHosterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="ImageHoster" />
       <extension name="coverage">
@@ -137,6 +151,9 @@
       <workItem from="1541430847431" duration="899000" />
       <workItem from="1541482181542" duration="4602000" />
       <workItem from="1612698835307" duration="5211000" />
+      <workItem from="1612716576892" duration="2904000" />
+      <workItem from="1613023093231" duration="244000" />
+      <workItem from="1613058167091" duration="3106000" />
     </task>
     <servers />
   </component>
@@ -153,40 +170,49 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="471" key="GridCell.Tab.0.bottom" timestamp="1612703131218">
+    <state width="1877" height="471" key="GridCell.Tab.0.bottom" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131218" />
-    <state width="1877" height="471" key="GridCell.Tab.0.center" timestamp="1612703131218">
+    <state width="1877" height="471" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.0.center" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131218" />
-    <state width="1877" height="471" key="GridCell.Tab.0.left" timestamp="1612703131218">
+    <state width="1877" height="471" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.0.left" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131218" />
-    <state width="1877" height="471" key="GridCell.Tab.0.right" timestamp="1612703131218">
+    <state width="1877" height="471" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.0.right" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131218" />
-    <state width="1877" height="471" key="GridCell.Tab.1.bottom" timestamp="1612703131219">
+    <state width="1877" height="471" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.1.bottom" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131219" />
-    <state width="1877" height="471" key="GridCell.Tab.1.center" timestamp="1612703131219">
+    <state width="1877" height="471" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.1.center" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131219" />
-    <state width="1877" height="471" key="GridCell.Tab.1.left" timestamp="1612703131218">
+    <state width="1877" height="471" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.1.left" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131218" />
-    <state width="1877" height="471" key="GridCell.Tab.1.right" timestamp="1612703131219">
+    <state width="1877" height="471" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state width="1877" height="471" key="GridCell.Tab.1.right" timestamp="1613061182430">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="471" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612703131219" />
+    <state width="1877" height="471" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613061182430" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1612718424076">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1612718424076" />
+    <state x="551" y="181" key="new project wizard" timestamp="1613023336303">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="551" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1613023336303" />
   </component>
   <component name="masterDetails">
     <states>
